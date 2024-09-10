@@ -42,8 +42,8 @@ function Tracker(props){
                         }%
                     </span>
                     :''}</h2>
-                <h2>Open: {open?parseFloat(open).toFixed(3):'Loading...'} $</h2>
-                <h2>Current: {close?<span className={up?"green":"red"}>{parseFloat(close).toFixed(3)}</span>:'Loading...'} $</h2>
+                <h2>Open: ${open?parseFloat(open).toFixed(3):'Loading...'}</h2>
+                <h2>Current: ${close?<span className={up?"green":"red"}>{parseFloat(close).toFixed(3)}</span>:'Loading...'}</h2>
             </div>:''}
         </>
     )
