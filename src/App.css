@@ -1,0 +1,22 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 75%;
+}
+
+.card {
+  display: inline-block;
+  padding: 2em;
+  margin: 1.2em;
+  border-radius: 1em;
+  background-color: rgb(55, 55, 55);
+}
+
+.red {
+  color: rgb(205, 0, 0);
+}
+
+.green {
+  color: rgb(0, 205, 0);
+}
